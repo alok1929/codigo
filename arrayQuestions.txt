@@ -1,15 +1,16 @@
 C program to find largest element in an array:done
 c program to find sum of elements in an array: done 
-Recursive C program to linearly search an element in a given array
+Recursive C program to linearly search an element in a given array:done
 C program to multiply two matrices
 C/C++ Program for Given an array A[] and a number x, check for pair in A[] with sum as x
-C/C++ Program for Majority Element
+C/C++ Program for Majority Element:done
 C/C++ Program for Find the Number Occurring Odd Number of Times:done
 C/C++ Program for Largest Sum Contiguous Subarray
 C/C++ Program for Find the Missing Number
 C/C++ Program for Search an element in a sorted and pivoted array
 C/C++ Program for Merge an array of size n into another array of size m+n
-C/C++ Program for Median of two sorted arrays
+C/C++ Program for Median of two sorted arrays(median means middle number):
+C/C++ Program for Median of a sorted array:done
 C/C++ Program for Write a program to reverse an array
 C/C++ Program for Program for array rotation
 C/C++ Program for Reversal algorithm for array rotation
@@ -19,7 +20,7 @@ C/C++ Program for Leaders in an array
 C/C++ Program for Sort elements by frequency | Set 1
 C/C++ Program for Count Inversions in an array
 C/C++ Program for Two elements whose sum is closest to zero
-C/C++ Program for Find the smallest and second smallest element in an array
+C/C++ Program for Find the smallest and second smallest element in an array:done
 C/C++ Program for Check for Majority Element in a sorted array
 C/C++ Program for Maximum and minimum of an array using minimum number of comparisons
 C/C++ Program for Segregate 0s and 1s in an array
