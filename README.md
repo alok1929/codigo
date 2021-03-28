@@ -5,7 +5,7 @@
 
 -[Downloading repository](#downloading-repository)
 
-### HOW TO DOWNLOAD THIS REPOSITORY:
+# HOW TO DOWNLOAD THIS REPOSITORY:
 
 ` git clone https://github.com/alok1929/codigo `
 
