@@ -1,6 +1,10 @@
 
 ![codigo](https://github.com/alok1929/codigo/blob/master/coddigo.png?raw=true)
 
+# Contents
+
+-[Downloading repository](#downloading-repository)
+
 ### HOW TO DOWNLOAD THIS REPOSITORY:
 
 ` git clone https://github.com/alok1929/codigo `
