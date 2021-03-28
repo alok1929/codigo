@@ -1,6 +1,5 @@
-! [Image of logo]
-(https://github.com/alok1929/c-/blob/master/IMG_20210325_160826.jpg)
 
+![codigo](https://github.com/alok1929/codigo/blob/master/codigoo.png?raw=true)
 
 ### THIS IS JUST A JUST A COLLECTION OF C++ PROGRAMS FOR CLASS 11 
 ## WILL ADD MORE PROGRAMS AS I GO ON
