@@ -1,3 +1,4 @@
+//sum of natural numbers.
 #include<iostream>
 using namespace std;
 
