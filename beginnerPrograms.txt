@@ -1,5 +1,3 @@
-
-
     C++ "Hello, World!" Program
     C++ Program to Print Number Entered by User
     C++ Program to Add Two Numbers
