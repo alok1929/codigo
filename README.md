@@ -3,7 +3,7 @@
 
 ### HOW TO DOWNLOAD THIS REPOSITORY:
 
-git clone https://github.com/alok1929/codigo
+` git clone https://github.com/alok1929/codigo `
 
 # ABOUT:
 
