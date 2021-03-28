@@ -1,14 +1,14 @@
+//to find factorial of number 
 #include<iostream>
 using namespace std;
 int main()
 {
-    cout<<"enter the number :";
-    int num;
-    cin>>num;
-   int f=1;
-    for(int i=1;i<=num;i++)
+    cout<<"enter the number";//4
+    int n,f=1;
+    cin>>n;
+    for(int i=1;i<=n;i++)
     {
-     f=f*i;
+        f*=i;
     }
-    cout<<f;
+    cout<<"factorial is " << f <<endl;
 }
