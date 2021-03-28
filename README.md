@@ -1,7 +1,7 @@
 
 ![codigo](https://github.com/alok1929/codigo/blob/master/coddigo.png?raw=true)
 
-# Contents
+# Contents  
 
 - [Downloading repository](#downloading-repository)
 - [About](#about)
@@ -17,7 +17,7 @@
 ## **codigo** is an open-source project based on helping people get into the wonderful life of coding , as well as open-source contribution . We have a goal to help people as much as possible , and in the process improve your coding skills and learning skills as well .
 <br>
 
-# Our Website 
+# Our Website ![codigo-website](https://alok1929.github.io/codigo/)
 
 ## the website of codigo , is still in the works , as we have less people , but all the programs are easily available on the git repo. The website will have all the programs and also a tutorial on getting started with programming .Due to the less number of people contributing ,its been a bit slow , so your contribution would mean a lot 
 
