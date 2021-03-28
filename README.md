@@ -4,6 +4,7 @@
 # Contents
 
 -[Downloading repository](#downloading-repository)
+-[ABOUT](#about)
 
 # HOW TO DOWNLOAD THIS REPOSITORY:
 
