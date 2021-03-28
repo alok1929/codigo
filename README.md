@@ -21,7 +21,7 @@
 
 ## the website of codigo , is still in the works , as we have less people , but all the programs are easily available on the git repo. The website will have all the programs and also a tutorial on getting started with programming .Due to the less number of people contributing ,its been a bit slow , so your contribution would mean a lot 
 
-# contribution
+# Contribution
 
 ## You can contribute to the repository by working on any issues that is present or even any programs you want to add can be added by raising an issue.
 
