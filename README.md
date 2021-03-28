@@ -3,8 +3,8 @@
 
 # Contents
 
--[Downloading repository](#downloading-repository)
--[ABOUT](#about)
+- [Downloading repository](#downloading-repository)
+ - [About](#about)
 
 # HOW TO DOWNLOAD THIS REPOSITORY:
 
