@@ -16,6 +16,7 @@
 
 ## **codigo** is an open-source project based on helping people get into the wonderful life of coding , as well as open-source contribution . We have a goal to help people as much as possible , and in the process improve your coding skills and learning skills as well .
 <br>
+>> If u don't think coding is fun and orgasmic and addictive  , you are clearly learning it wrong , learn it from us !
 
 # Our Website : [https://alok1929.github.io/codigo/]
 
