@@ -119,6 +119,29 @@ nav {
   color: #edf0f1;
 }
 
+/*
+about page css
+*/
+
+.heady {
+  padding: 60px;
+  text-align: center;
+  background: #24252a;
+  color: white;
+  font-size: 30px;
+   display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.boody{
+  padding: 60px;
+  text-align: center;
+  background: ;
+  color: black;
+  font-size: 30px;
+}
 @media screen and (max-height: 450px) {
   .overlay a {
     font-size: 20px;
