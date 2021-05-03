@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+background-color: #f2f8fb;
+}
+
+}
 h1{
   background-color:#24252a;
 }
@@ -138,7 +144,7 @@ about page css
 .boody{
   padding: 60px;
   text-align: center;
-  background: ;
+  background-color: #f2f8fb;
   color: black;
   font-size: 30px;
 }
