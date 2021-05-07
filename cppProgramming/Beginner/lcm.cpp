@@ -3,18 +3,19 @@
 using namespace std;
 int main()
 {
-	int a =7,b=5,lcm;
-	if(a>b)
-	{
-		 lcm = a;
-   else
-   lcm = b;
-   while(1) {
-      if( lcm%a==0 && lcm%b==0 ) {
-         cout<<"The LCM of "<<a<<" and "<<b<<" is "<<lcm;
-         break;
-      }
-      lcm++;
-   }
-   return 0;
+     int a, b, lcm, ai;
+     cout<<"Enter 2 numbers "<<endl;
+     cin>>a>>" ">>b;
+
+     for(int i=0;i<=b;i++)
+     {
+        ai = a*i;
+        if(ai%b == 0)
+          {
+            lcm = ai;
+            break;
+          }
+     }
+     cout<<"The LCM of 2 numbers is "<<LCM<<endl;
+
 }
