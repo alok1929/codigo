@@ -10,14 +10,15 @@ background-color: #f2f8fb;
 
 }
 h1{
-  background-color:#24252a;
+  background-color:;
 }
 header {
-  display: flex;
-  justify-content: space-between;
+  display:flex;
+  justify-content:space-around;
   align-items: center;
-  padding: 30px 10%;
-  background-color: #24252a;
+  padding: 20px 10%;
+  background-color:;
+  color:black; 
 }
 
 .logo {
@@ -27,7 +28,7 @@ header {
 }
 
 nav {
-  order: 1;
+  order: 2;
 }
 
 .nav__links a,
@@ -35,13 +36,12 @@ nav {
 .overlay__content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  color: #edf0f1;
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .nav__links {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   font-size: 16px;
 }
 
@@ -65,7 +65,7 @@ nav {
   order: 2;
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: rgba(0, 136, 169, 1);
+  background-color: ;
   border: none;
   border-radius: 50px;
   cursor: pointer;
