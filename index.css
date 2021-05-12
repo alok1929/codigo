@@ -79,7 +79,7 @@ nav {
 /* Mobile Nav */
 
 .menu {
-  display: none;
+  display:flex;
 }
 
 .overlay {
