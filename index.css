@@ -70,6 +70,7 @@ block programming technquie starts here
 
 .im
 {
+  font-size: 5px;
   display:flex;
   align-items: center;
   padding:10px 20px;
@@ -84,24 +85,29 @@ block programming technquie starts here
   padding-top: 10px;
   padding-bottom: 1px;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 60%;
+.columi {
+  box-shadow: 0 4px 8px 0 rgba(224, 15, 15, 0.2);
+  transition: 0.5s;
+  width: 70%;
+  padding-left:20px;
+  
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(13, 175, 22, 0.2);
 }
 
 .container {
-  padding: 10px 16px;
+  padding: 20px;
+  padding-left: 25px;
 }
 
 .text
 {
   font-size:20px;
   padding-left:20px;
+  align-items: center;
+
 }
 
 /*
@@ -113,6 +119,12 @@ blocks divided into parts starts here
 */
 
 .textiee
+{
+  text-align: center;
+   font-size: 25px;;
+}
+
+.texter
 {
   text-align: center;
    font-size: 25px;;
@@ -131,6 +143,11 @@ body {
   float: left;
   width: 50%;
   padding: 10px;
+}
+.colum{
+  float:left;
+  width:100%;
+  padding:10px;
 }
 
 .block1-para
@@ -158,6 +175,15 @@ body {
   background-color:#c8c9cf;
 }
 
+.cardi {
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(22, 20, 20, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  
+  text-align: center;
+  background-color:#8e93b1;
+}
+
 
 
 /*
@@ -165,122 +191,89 @@ block divided into part ends here
 */
 
 
-
-h1{
-  background-color:white;
+/*
+nav bar css starts here
+*/
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
 }
+
+.cont {
+	width: 80%;
+	margin: 0 auto;
+}
+
 header {
-  display:flex;
-  justify-content:space-around;
-  align-items: center;
-  padding: 20px 10%;
-  background-color:#060607;
-  color:black; 
+  background: #95c7e0;
+  text-decoration-color: blueviolet;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .logo {
-  cursor: pointer;
-  order: 3;
-  margin-left: auto;
+  float: left;
+  padding: 10px 0;
 }
 
 nav {
-  order: 2;
+  float: right;
 }
 
-.nav__links a,
-.cta,
-.overlay__content a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-    text-decoration: none;
-}
-
-.nav__links {
+nav ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
-  display: inline-flex;
-  font-size: 16px;
 }
 
-.nav__links li {
-  padding: 0px 20px;
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
 }
 
-.nav__links li:nth-child(1) {
-  padding: 0 20px 0 0;
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
-.nav__links li a {
-  transition: all 0.3s ease 0s;
+nav a:hover {
+  color: #000;
 }
 
-.nav__links li a:hover {
-  color: #0088a9;
-}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
 
-.cta {
-  order: 2;
-  margin-left: 20px;
-  padding: 9px 25px;
-  background-color: ;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.cta:hover {
-  background-color: rgba(0, 136, 169, 0.8);
-}
-
-/* Mobile Nav */
-
-.menu {
-  display:none;
-}
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
+  position: absolute;
   top: 0;
-  background-color: #24252a;
-  overflow-x: hidden;
-  transition: all 0.5s ease 0s;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
 }
 
-.overlay--active {
+nav a:hover::before {
   width: 100%;
 }
 
-.overlay__content {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
-.overlay a {
-  padding: 15px;
-  font-size: 36px;
-  display: block;
-  transition: all 0.3s ease 0s;
-}
 
-.overlay a:hover,
-.overlay a:focus {
-  color: #0088a9;
-}
-.overlay .close {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-  color: #edf0f1;
-}
+
+/*
+nav bar css ends here
+*/
 
 /*
 about page css
@@ -326,3 +319,29 @@ about page css
   }
 }
 
+/*
+footer starts here
+*/
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:black;
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+/*
+footer ends here
+*/
