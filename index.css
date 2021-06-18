@@ -3,26 +3,71 @@
   margin: 0;
   padding: 0;
 }
+ .fanc-text {
+    color: #fff;
+    text-shadow:
+      0 0 7px rgb(13, 143, 250),
+      0 0 10px rgb(255, 255, 255),
+      0 0 21px rgb(236, 12, 12),
+      0 0 42px rgb(255, 81, 0),
+      0 0 82px rgb(255, 72, 0),
+      0 0 92px rgb(255, 136, 0),
+      0 0 102px #f09,
+      0 0 151px #f09;
+      padding:20px;
+      padding-top:30px;
+
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    background-color: #010a01;
+    font-size: 40px;
+    font-family: "Sacramento" , sans-serif;
+  }
 
 body{
 background-color: #f2f8fb;
 display: grid;
 text-align:right-center;
 font-size:20px;
+padding:15px;
 }
 .programmingintro
 {
   padding:12px;
+  font-size: 30px;
 
 }
 .programming{
   display:flex;
   justify-content: space-between;
+  font-size: 30px;
 }
+
+/*
+fancy text 5th point css here
+*/
+
+   .fancy-text {
+    color: #fff;
+    text-shadow:
+      0 0 7px rgb(250, 13, 13),
+      0 0 10px rgb(255, 255, 255),
+      0 0 21px rgb(236, 12, 12),
+      0 0 42px rgb(255, 81, 0),
+      0 0 82px rgb(255, 72, 0),
+      0 0 92px rgb(255, 136, 0),
+      0 0 102px #f09,
+      0 0 151px #f09;
+      padding:20px;
+      padding-top:30px;
+
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+    
+  }
 
 /*
 block programming technquie starts here
 */
+
 .im
 {
   display:flex;
@@ -129,7 +174,7 @@ header {
   justify-content:space-around;
   align-items: center;
   padding: 20px 10%;
-  background-color:#acafbd;
+  background-color:#060607;
   color:black; 
 }
 
