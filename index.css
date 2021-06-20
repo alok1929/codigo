@@ -89,7 +89,7 @@ block programming technquie starts here
   box-shadow: 0 4px 8px 0 rgba(224, 15, 15, 0.2);
   transition: 0.5s;
   width: 70%;
-  padding-left:20px;
+
   
 }
 
@@ -325,7 +325,7 @@ footer starts here
 .footer-dark {
   padding:50px 0;
   color:#f0f9ff;
-  background-color:black;
+  background-color:#95c7e0;
 }
 
 .footer-dark h3 {
