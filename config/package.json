@@ -1,0 +1,31 @@
+{
+  "name": "codigo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./src/styles.css -o ./public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alok1929/codigo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alok1929/codigo/issues"
+  },
+  "homepage": "https://github.com/alok1929/codigo#readme",
+  "dependencies": {
+    "3": "^2.1.0",
+    "autoprefixer": "^10.2.6",
+    "chokidar": "^3.5.2",
+    "cssnano": "^5.0.6",
+    "live-server": "^1.2.1",
+    "onchange": "^7.1.0",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.4"
+  }
+}
