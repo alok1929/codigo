@@ -88,12 +88,25 @@
 
         <br>
         <!--installing on windows-->
-          <div class="onwindows font-bold p-2 py-2 bg-blue-900">
+          <div class="onwindows font-bold px-2 py-2 bg-blue-900">
              On Windows:
           </div>
-          <div class="font-sans text-black-200 block px-6">
-            
           </div>
+          
+          <div class="font-sans text-black-200 mx-8  py-4 px-20 overflow-x-auto">
+            <input id="input" disabled value= "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" 
+              class="font-extrabold max-w-7xl mx-auto rounded-md space-x-6 px-8 overflow-x-auto py-4 bg-blue-100" type="text"/>
+            <button id="execCopy" class="inline-block font-bold inline-block shadow-xl text-2xl rounded-3xl space-x-4 bg-grey-900">📋 </button>
+            <script>
+            document.getElementById('execCopy').addEventListener('click', execCopy);
+              function execCopy() 
+              {
+                document.querySelector("#input").select();
+                document.execCommand("copy");
+              }
+            </script>
+          </div> 
+          
 
 
    </div>
