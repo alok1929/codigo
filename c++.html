@@ -19,6 +19,16 @@
       </div>
 
 
+      <!--script for the copy paste button-->
+       <script>
+            document.getElementById('execCopy').addEventListener('click', execCopy);
+              function execCopy() 
+              {
+                document.querySelector("#input").select();
+                document.execCommand("copy");
+              }
+            </script>
+
     <!--navbar-->
 
 
@@ -50,11 +60,11 @@
 
 
     <main>
-    <div class="flex-1 p-14 text-2xl font-sans">
+    <div class="flex-1 p-14 text-xl font-sans">
 
       <!--what is c++-->
 
-      <div class="c++intro font-bold px-3">
+      <div class="c++intro font-bold px-3 bg-blue-900 p-2">
         What is C++?<br>
         </div>
         <div class="font-sans text-black-200 block p-2">
@@ -91,24 +101,76 @@
           <div class="onwindows font-bold px-2 py-2 bg-blue-900">
              On Windows:
           </div>
+          
+          <!--step 1-->
+          <div class="font-sans text-black-200 mx-4  py-8   px-6 overflow-x-auto"> 
+            <div class="font-extrabold text-2xl px-2 p-2 mt-4">STEP 1:</div>
+            
+              <input id="input" disabled value= "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" 
+                          class="font-bold w-80 mx-auto rounded-md space-x-6 px-8 overflow-x-auto py-4 bg-blue-100" type="text"/>
+                        <button id="execCopy" class="inline-block font-bold inline-block shadow-xl text-2xl rounded-3xl space-x-4 bg-grey-900">📋 </button>
+                       
+                      </div> 
+                    <div class="font-sans text-black-200   px-6 mt-4 m-6">
+                      Copy and paste the above lines in powershell .Do it as an <b>administrator</b> and press <b><i>Y</i></b> to confirm the installation 
+                    </div>    
+                    <img src="powershell.png" alt="powershell" class="w-45 h-45 bg-blue-100 px-6 space-x-4 m-8 shadow-3xl rounded-3xl py-4"> 
+
+
+        <!--step 2-->
+        <div class="font-extrabold text-2xl px-3 p-2">STEP 2:</div>
+          <div class="font-sans px-6">Now that we have installed choco , next step would be to install <b>Visual Studio Code</b>.It is a 
+            very powerful text-editor by Microsoft .We will install it using choco itself . <i>Copy and Paste</i> the following in powershell as administrator : </div> 
+          <div class="flex flex-wrap">
+            <input id="input" disabled value= "choco install visualstudiocode" 
+              class="font-bold w-80 mt-10  mx-48 rounded-md  px-2 p-4 overflow-x-auto bg-blue-100 " type="text"/>
+            <button id="execCopy" class="inline-block font-bold inline-block shadow-xl text-2xl rounded-3xl mt-10 ">📋 </button>            
+
           </div>
-          
-          <div class="font-sans text-black-200 mx-8  py-4 px-20 overflow-x-auto">
-            <input id="input" disabled value= "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" 
-              class="font-extrabold max-w-7xl mx-auto rounded-md space-x-6 px-8 overflow-x-auto py-4 bg-blue-100" type="text"/>
-            <button id="execCopy" class="inline-block font-bold inline-block shadow-xl text-2xl rounded-3xl space-x-4 bg-grey-900">📋 </button>
-            <script>
-            document.getElementById('execCopy').addEventListener('click', execCopy);
-              function execCopy() 
-              {
-                document.querySelector("#input").select();
-                document.execCommand("copy");
-              }
-            </script>
-          </div> 
-          
 
+        <!--step 3-->
+        <div class="font-extrabold text-2xl px-3 py-4 p-2">STEP 3:</div>
+          <div class="font-sans px-6">
+            Next step is to install the c++ compiler - <b>mingw</b> and this can be done by clicking
+            <a href="https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/">
+              <div class="inline-block  bg-blue-100 space-x-6 px-6"
+              <b>this link</b></a> 
+              </div>
+              and installing it.  Tick <b>all</b> ✔️  of them by right clicking and select mark for installation wait for them to be installed .
+               <img src="mingw.png" alt="powershell" class="w-45 h-45 bg-blue-100 px-6 space-x-4 m-8 shadow-3xl rounded-3xl py-4">
+          </div>
 
+        <!--step 4-->
+        <div class="font-extrabold text-2xl px-3 py-4 p-2">STEP 4:</div>
+        <div class="font-sans px-6">
+          Next step is to tell your computer that mingw is installed on your computer , you can do this by setting an <b>Environment Variable</b> .
+           Go to Advanced System Settings and set a new Environment variable :
+           <div class="flex flex-column space-x-2 px-6 py-6">
+            <img src="advanced.png" alt="Systemsettings" class="max-w-sm  bg-blue-100 px-6 space-x-4 m-8 shadow-3xl rounded-3xl py-4">
+            <img src="envivariable.png" alt="" class="bg-blue-100 max-w-sm  shadow-3xl rounded-3xl w-45 h-45 ">
+            </div>
+            ➡️ Set the new Environment Variable as the location of the mingw bin file  which is usually 
+            <div class="font-mono inline-block bg-blue-100 px-6 rounded-md">
+              C:\MinGW\bin
+            </div>
+            Copy and paste this as the enviroment variable and click on <b>OK</b>
+        </div>
+        <!--step 5-->
+        <div class="font-extrabold text-2xl px-3 py-6 p-2">STEP 5 :</div>
+        <div class="font-sans px-6">
+          Next step is to run your c++ program :
+          open visual studio code and open a new terminal by clicking on terminal or by pressing 
+          <div class="inline-block shadow-3xl bg-blue-100 mt-2 px-4 font-mono">ctrl+shift+`</div> on your keyboard . Now type the following in the terminal:
+
+         <div class="px-10 m-4 mx-10 rounded-md py-4 font-sans bg-red-200">
+          <div> 1. <b>mkdir + name of directory</b> : to create a directory (eg : mkdir c++)
+          <div>2. <b>cd + name of directory</b> : {name of the directory you had created} (eg: cd c++)
+          <div class="">3. <b>code .</b>  : {to open a vs code window with that file}</div>
+          </div>
+        </div>
+        </div>
+         <img src="terminal.png" alt="" class="bg-blue-100 inline-block p-4  shadow-3xl rounded-xl w-45 h-45 ">
    </div>
+  </div>
   </main>
 </html>
