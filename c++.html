@@ -1,8 +1,20 @@
-<html>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ #1</title>
+  </head>
+  <body>
+    
+  </body>
+  </html>
   <head>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <title>C++ #1</title>
+
    <div class="relative min-h-screen flex">
 
     
@@ -155,22 +167,83 @@
             </div>
             Copy and paste this as the enviroment variable and click on <b>OK</b>
         </div>
+
         <!--step 5-->
         <div class="font-extrabold text-2xl px-3 py-6 p-2">STEP 5 :</div>
         <div class="font-sans px-6">
           Next step is to run your c++ program :
           open visual studio code and open a new terminal by clicking on terminal or by pressing 
-          <div class="inline-block shadow-3xl bg-blue-100 mt-2 px-4 font-mono">ctrl+shift+`</div> on your keyboard . Now type the following in the terminal:
+          <div class="inline-block shadow-3xl bg-blue-100 mt-2  mx-2 px-4 font-mono">ctrl+shift+`</div> on your keyboard . Now type the following in the terminal:
 
-         <div class="px-10 m-4 mx-10 rounded-md py-4 font-sans bg-red-200">
+         <div class="px-10 m-4 mx-10 rounded-md py-4 font-sans mx-4 px-6 bg-red-200">
           <div> 1. <b>mkdir + name of directory</b> : to create a directory (eg : mkdir c++)
           <div>2. <b>cd + name of directory</b> : {name of the directory you had created} (eg: cd c++)
           <div class="">3. <b>code .</b>  : {to open a vs code window with that file}</div>
           </div>
         </div>
         </div>
-         <img src="terminal.png" alt="" class="bg-blue-100 inline-block p-4  shadow-3xl rounded-xl w-45 h-45 ">
+         <img src="terminal.png" alt="" class="bg-blue-100 inline-block p-4 m-2  p-6 shadow-3xl rounded-xl w-45 h-45 items-center ">
+         <div class ="py-2 p-2 font-bold">
+         Now all you have to do is start writing your c++ program ! and compile it by clicking on run without debugging or by typing 
+         <div class="inline-block shadow-3xl bg-blue-100 mt-2  mx-2 px-4 font-mono">ctrl+f5</div>.
+         </div>
    </div>
+
+        <!--on Linux-->
+        <div class="font-extrabold  bg-blue-900 p-4 px-4 mt-4   py-4">
+            On Linux :
+        </div>
+        <div class="font-sans p-4 px-8">
+          Installing c++ is pretty easy as most of it is done through the terminal.You can do this by first typing:<br>
+          <div class="inline-block bg-blue-100 font-mono font-bold px-10 p-4 mt-4 py-4 rounded-md">
+            sudo apt update && sudo apt upgrade -y
+          </div>
+         : This will update and upgrade the system
+        </div>
+        <div class="px-8 font-sans">
+          Then type the following to install the build essentials and the c++ compiler - <b><i>g++</i></b> and c++ debugger - <b><i>gdb</i></b>
+          <div class="inline-block bg-blue-100 font-bold px-10 p-6 mt-4 px-6 py-4 rounded-md font-mono">
+            sudo apt install build-essential gdb g++
+          </div>
+          : This will install g++ and gdb and the build essentials
+          <div class="px-3 py-6 ">
+            Then type the following to install programs to download vscode on the terminal itself :
+             <div class="inline-block bg-blue-100 font-bold px-10 p-6 mt-4 py-4 rounded-md font-mono">
+               sudo apt install software-properties-common apt-transport-https wget
+               </div>
+                <div class="inline-block bg-blue-100 font-bold px-10 p-6 mt-4 py-4 rounded-md font-mono">
+                wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+                sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+             </div>
+              <div class="px-4 mt-4 py-4 font-sans">
+             Then type the following to install visual studio code :
+             </div>
+             <div class="inline-block bg-blue-100 font-bold px-10 p-4 mt-4 px-2 mt-3 py-4 rounded-md font-mono">
+               sudo apt install code 
+             </div>
+          </div>
+        </div>
+        <div class="px-8 m-4 py-4 font-sans">
+          Type the following in the terminal to create a c++ folder on vs code :</div>
+         <div class="px-10 m-4 mx-10 rounded-md py-4 font-sans mx-4 px-6 bg-red-200">
+          <div> 1. <b>mkdir + name of directory</b> : to create a directory (eg : mkdir c++)
+          <div>2. <b>cd + name of directory</b> : {name of the directory you had created} (eg: cd c++)
+          <div class="">3. <b>code .</b>  : {to open a vs code window with that file}</div>
+          </div>
+        </div>
+        </div>
+
+        <!--your first program-->
+        <div class="font-extrabold mt-4 bg-blue-900 p-5">
+          Your first Program :
+        </div>
+        
+        create a directory
+        add extensions
+        write a program 
+        compile it 
+        tada!
   </div>
+
   </main>
 </html>
