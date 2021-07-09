@@ -212,14 +212,14 @@
                sudo apt install software-properties-common apt-transport-https wget
                </div>
                 <div class="inline-block bg-blue-100 font-bold px-10 p-6 mt-4 py-4 rounded-md font-mono">
-                wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+                wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add - <br>
                 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
              </div>
               <div class="px-4 mt-4 py-4 font-sans">
              Then type the following to install visual studio code :
              </div>
              <div class="inline-block bg-blue-100 font-bold px-10 p-4 mt-4 px-2 mt-3 py-4 rounded-md font-mono">
-               sudo apt install code 
+               sudo apt update && sudo apt install code 
              </div>
           </div>
         </div>
