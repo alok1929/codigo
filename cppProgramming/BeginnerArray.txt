@@ -1,0 +1,17 @@
+1. Print one dimensional array
+2. Calculate average & percentage
+3. Calculate arithmetic mean
+4. Calculate grade of student
+5. Search element in array
+6. Find largest element in array
+7. Find smallest element in array
+8. Reverse an array
+9. Print two dimensional array
+10. Print addition of two matrices
+11. Print subtraction of two matrices
+12. Multiplication of two matrices
+13. Display the transpose of matrix
+14. Major & minor diagonal elements
+15. Sum of lower triangular elements of matrix
+16. Sort in descending order
+17. Merge two sorted arrays
