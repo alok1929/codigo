@@ -1,8 +1,8 @@
-1. Print one dimensional array
-2. Calculate average & percentage
-3. Calculate arithmetic mean
-4. Calculate grade of student
-5. Search element in array
+1. Print array of length n 
+2. Calculate average & percentage of an array
+3. Calculate arithmetic mean of an array 
+4. Calculate grade of student of an array
+5. Search element in array using LinearSearch
 6. Find largest element in array
 7. Find smallest element in array
 8. Reverse an array
